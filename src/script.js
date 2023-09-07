@@ -67,10 +67,10 @@ function displayForecast(response) {
   forecastElement.innerHTML = forecastHTML;
 }
 
-function displayTemerature(response) {
+function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
-  let descriptionElement = document.querySelctor("#description");
+  let descriptionElement = document.querySelector("#description");
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
@@ -105,7 +105,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+search("Dallas");
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-search("Dallas");
