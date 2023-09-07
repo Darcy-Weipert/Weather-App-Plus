@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  display: block;
 }
 
 h1 {
@@ -27,6 +28,10 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+small {
+  display: block;
 }
 
 .weather-app-wrapper {
