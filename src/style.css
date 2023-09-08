@@ -32,7 +32,8 @@ li:first-letter {
 
 small {
   display: block;
-  margin-left: 50px;
+  text-align: center;
+  max-width: 600px;
 }
 
 .form-control {
